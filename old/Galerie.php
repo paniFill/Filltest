@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>kmkonsulttestgalerie</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div class="wrapper clearfix">
+			<div id="logo">
+				<a href="index.html"><img src="images/output-onlinepngtools.png" alt="LOGO" height="60"></a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="index.html">Domů</a>
+				</li>
+				<li>
+					<a href="My.html">O Nás</a>
+				</li>
+				<li>
+					<a href="blog.html"></a>
+				</li>
+				<li class="selected">
+					<a href="Galerie.html">Galerie</a>
+				</li>
+				<li>
+					<a href="Kontakty.html">Kontakty</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="gallery" class="wrapper clearfix">
+			<div id="sidebar">
+				<ul>
+					<li>
+						<a><img src="<?php include 'randomImage.php'; ?>" alt="Random Image" height="154" width="213"></a>
+					</li>
+					<li>
+						<a><img src="<?php include 'randomImage.php'; ?>" alt="Random Image" height="154" width="213"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="main">
+				<h1>Galerie</h1>
+				<div class="photos">
+					<div class="viewer">
+						<a><img src="<?php include 'randomImage.php'; ?>" alt="Random Image" height="348" width="703"></a>
+					</div>
+					<ul>
+						<li>
+							<a><img src="<?php include 'randomImage.php'; ?>" alt="Random Image" height="96" width="150"><span class="cover"></span></a>
+						</li>
+						<li>
+							<a><img src="<?php include 'randomImage.php'; ?>" alt="Random Image" height="96" width="150"><span class="cover"></span></a>
+						</li>
+						<li>
+							<a><img src="<?php include 'randomImage.php'; ?>" alt="Random Image" height="96" width="150"><span class="cover"></span></a>
+						</li>
+						<li>
+							<a><img src="<?php include 'randomImage.php'; ?>" alt="Random Image" height="96" width="150"><span class="cover"></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<ul id="featured" class="wrapper clearfix">
+			<li>
+				<img src="images/RENDR_Photo - 5mdk (1) (1) (1).jpg" alt="Img" height="204" width="220">
+				<h3><a href="blog.html">projekt 1 </a></h3>
+				<p>
+					popisek projektu
+				</p>
+			</li>
+			<li>
+				<img src="images/VAR_A_Photo - 5 (1).jpg" alt="Img" height="204" width="220">
+				<h3><a href="blog.html">projekt 2</a></h3>
+				<p>
+					popisek projektu
+				</p>
+			</li>
+			<li>
+				<img src="images/11_01__4 - Photo 1.jpg" alt="Img" height="204" width="220">
+				<h3><a href="blog.html">projekt 3</a></h3>
+				<p>
+					popiek projektu
+				</p>
+			</li>
+			<li>
+				<img src="images/14.7._1 - Foto.jpg" alt="Img" height="204" width="220">
+				<h3><a href="blog.html">projekt 4</a></h3>
+				<p>
+					popisek projektu
+				</p>
+			</li>
+		</ul>
+		<div class="body">
+			<div class="wrapper clearfix">
+				<div id="links">
+					<div>
+						<h4>Kontakní osoby</h4>
+						<ul>
+							<li>
+								<a><b>Ing. Miroslav Macoun</b><br>tel: 739 033 606<br>macoun@aa-consult.cz</a>
+							</li>
+							<li>
+								<a><b>Ing. arch. Libor Kubena</b><br>tel: 603 262 247<br>kubena@km-consult.cz</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4>Sídlište</h4>
+						<ul>
+							<li>
+								<a href="index.html">Pohořice 123<br>Martiněves, 411 19
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
